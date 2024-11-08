@@ -9,7 +9,7 @@ __pycache__/
 # Data files
 *.csv
 *.log
-*.txt
+sample_files/
 
 # Distribution / packaging
 .Python

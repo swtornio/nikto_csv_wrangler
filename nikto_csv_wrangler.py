@@ -45,7 +45,7 @@ def combine_csv_files(input_dir, output_file):
             print(f"Parser error in file {file}: {e}")
             continue
 
-    # Concatenate all dataframes, filling missing columns with NaN
+    # Concatenate all dataframes
     combined_df = pd.concat(dfs, ignore_index=True)
 
     # Save the combined file as CSV
