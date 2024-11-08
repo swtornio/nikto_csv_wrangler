@@ -17,3 +17,5 @@ positional arguments:
 options:
   -h, --help   show this help message and exit
 ```
+
+Credits: Chris Sullo for actually writing nikto and keeping its zombie language undead in the modern era.
